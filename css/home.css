@@ -1,0 +1,323 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: poppins; 
+}
+
+
+
+/* Container */
+.container {
+    width: 100%;
+    min-width: 1024px;
+    text-align: center;
+}
+
+.container .conteudo {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+}
+/* Topo */
+
+.topo {
+    height: 150px; 
+    margin-bottom: 20px;  
+    padding-top: 35px; 
+}
+/* .topo .topo-conteudo {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+} */
+
+.topo .topo-conteudo .logo {    
+    text-align: left;
+}
+
+.topo .topo-conteudo .logo img {
+    width: 90px;
+}
+.topo .topo-conteudo .nome {
+    text-align: left;
+    margin-left: 20px;  
+    width: 300px;
+    
+}
+
+.topo .topo-conteudo .nome h1 {
+    display: block;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.topo .topo-conteudo .nome p {
+    color: #2f86d6;
+    font-weight: 700;
+    display: block;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.topo .topo-conteudo .menu {
+    margin-left: auto;
+    margin-right: 0;
+    height: 100%;
+    padding-top: 40px;
+    display: block;
+}
+
+.topo .topo-conteudo .menu a {
+    font-weight: 700;
+    color: #233032; 
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+/* Banner */
+.banner {
+    background-color: #2f86d6;
+    color: #FFFFFF;
+    padding: 100px 0;
+}
+
+.banner .conteudo .texto {
+    padding-top: 100px;
+    text-align: left;
+}
+
+.banner .conteudo .texto p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.banner .conteudo .texto h2 {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-bottom: 20px
+}
+
+/* Anuncios */
+
+.anuncio {
+    height: 140px;
+    color: #FFFFFF;
+    display: flex;
+    text-align: left;
+    padding: 30px 0;
+    vertical-align: middle;
+}
+
+
+.anuncio .texto {
+    margin-right: auto;
+}
+
+.anuncio .texto h2 {
+    margin-bottom: 5px;
+}
+
+.anuncio a {
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
+.anuncio-primeiro {
+    background-color: #233032;
+}
+
+.anuncio-primeiro .botao {
+    margin: auto 0;
+}
+.anuncio-primeiro .botao a {
+    background-color: #2f86d6;
+    padding: 20px;   
+}
+
+.anuncio-segundo {
+    background-color: #2f86d6;
+}
+
+.anuncio-segundo .botao {
+    margin: auto 0;
+}
+.anuncio-segundo .botao a {
+    background-color: #233032;
+    padding: 20px;   
+}
+
+/* Informações */
+
+.informacoes {
+    padding: 100px 0;
+}
+
+.informacoes .conteudo {
+    display: block;
+}
+
+.informacoes .texto {
+    width: 100%;
+    display: block;
+}
+
+.informacoes .texto h2 {
+    padding: 0 0 50px 0; 
+}
+
+.informacoes .texto h2 span {
+    color: #2f86d6;
+}
+
+.informacoes .informacoes-todas {
+   display: flex;
+}
+
+.informacoes-detalhes {
+padding: 6px;
+    
+}
+
+.informacoes-detalhes img {
+    width: 90px;
+    margin: 0 auto;
+}
+
+.informacoes-detalhes h3 {
+    margin: 25px 0;
+}
+
+
+/* Planos */
+.planos {
+    background-color: #f6f6f6;
+    padding: 100px 0;
+}
+
+.planos .conteudo {
+    display: block;
+}
+
+.planos h2 {
+    display: block;
+    width: 100%;
+    padding: 0 0 50px 0;
+    margin-top: 10px;
+}
+
+.planos h2 span {
+    color:#2f86d6;
+}
+
+.planos img {
+    width: 100px;
+}
+
+.planos table {
+    background-color: #F6F6F6;
+    width: 100%;
+    box-shadow:0 0 30px 10px #2f86d6;
+    border: 1px solid #a89f9f;
+}
+
+.planos table p {
+    font-size: 13px;
+    color: #a89f9f;
+    font-weight: normal;
+    padding: 20px 30px;
+}
+
+.planos h3 {
+    margin-bottom: 20px;
+}
+
+.planos .bgclaro  {
+    background-color: #FFFFFF;
+}
+
+.planos .bgescuro {
+    background-color: #F6F6F6;
+}
+
+.planos th, .planos td {    
+    width: 25%;
+    padding: 15px 25px;
+}
+
+
+
+/* Rodape */
+
+.rodape {
+    text-align: center;
+    display: block;
+}
+
+.rodape .conteudo {
+    display: block;  
+    padding: 50px; 
+}
+
+.rodape .conteudo .logonomeslogan{
+    display: inline-flex;
+    margin: 0 auto 30px auto;
+
+}
+
+.rodape .conteudo .logo {    
+    text-align: left;
+}
+
+.rodape .conteudo .logo img {
+    width: 90px;
+}
+.rodape .conteudo .nome {
+    text-align: left;
+    margin-left: 20px;  
+    width: 300px;
+    
+}
+
+.rodape .conteudo .nome h2 {
+    display: block;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.rodape .conteudo .nome p {
+    color: #2f86d6;
+    font-weight: 700;
+    display: block;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.rodape .conteudo .contato {    
+    display: block;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.rodape .desenvolvedor {
+    width: 100%;
+    background-color: #F6F6F6;
+    padding: 30px;
+    font-weight: 700;
+    display: block;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.rodape .desenvolvedor span{
+    color: #2f86d6;
+}

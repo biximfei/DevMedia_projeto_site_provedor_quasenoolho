@@ -1,0 +1,215 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: poppins; 
+}
+
+
+
+/* Container */
+.container {
+    width: 100%;
+    min-width: 1024px;
+    text-align: center;
+}
+
+.container .conteudo {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+}
+/* Topo */
+
+.topo {
+    height: 150px; 
+    margin-bottom: 20px;  
+    padding-top: 35px; 
+    background-color: #2f86d6;
+}
+/* .topo .topo-conteudo {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+} */
+
+.topo .topo-conteudo .logo {    
+    text-align: left;
+}
+
+.topo .topo-conteudo .logo img {
+    width: 90px;
+}
+.topo .topo-conteudo .nome {
+    text-align: left;
+    margin-left: 20px;  
+    width: 300px;
+    
+}
+
+.topo .topo-conteudo .nome h1 {
+    display: block;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.topo .topo-conteudo .nome p {
+    color: #FFFFFF;
+    font-weight: 700;
+    display: block;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.topo .topo-conteudo .menu {
+    margin-left: auto;
+    margin-right: 0;
+    height: 100%;
+    padding-top: 40px;
+    display: block;
+}
+
+.topo .topo-conteudo .menu a {
+    font-weight: 700;
+    color: #FFFFFF; 
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+
+/* Tabela de Preços */
+
+.tabeladeprecos {
+    text-align: center;
+    display: block;
+    font-size: 12px;
+}
+
+.tabeladeprecos table {
+    margin: 0 auto;
+    background-color: #f1f3f7;
+}
+
+.tabeladeprecos th {
+    padding: 25px;
+}
+.tabeladeprecos td {
+    padding: 20px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.tabeladeprecos table p {
+    color: #a89f9f;
+    font-size: 12px;
+}
+
+.tabeladeprecos table h2 {
+    font-size: 25px;
+}
+
+.tabeladeprecos .fundobranco {
+    background-color: #FFFFFF;
+    text-align: center;
+    font-weight: normal;
+}
+
+.tabeladeprecos table .circloazul {    
+    background-color: #2f86d6;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;    
+    margin: auto;
+}
+
+
+/* Cores
+
+    #fff
+    #f1f3f7
+    #f6f6f6
+    #a89f9f
+    #233032
+    #2f86d6
+    rgba(47, 134, 214, 1)
+
+*/
+
+
+
+/* Rodape */
+
+.rodape {
+    text-align: center;
+    display: block;
+    background-color: #2f86d6;
+}
+
+.rodape .conteudo {
+    display: block;  
+    padding: 50px; 
+}
+
+.rodape .conteudo .logonomeslogan{
+    display: inline-flex;
+    margin: 0 auto 30px auto;
+
+}
+
+.rodape .conteudo .logo {    
+    text-align: left;
+}
+
+.rodape .conteudo .logo img {
+    width: 90px;
+}
+.rodape .conteudo .nome {
+    text-align: left;
+    margin-left: 20px;  
+    width: 300px;
+    
+}
+
+.rodape .conteudo .nome h2 {
+    display: block;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.rodape .conteudo .nome p {
+    color: #FFFFFF;
+    font-weight: 700;
+    display: block;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.rodape .conteudo .contato {    
+    display: block;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 15px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.rodape .desenvolvedor {
+    width: 100%;
+    background-color: #F6F6F6;
+    padding: 30px;
+    font-weight: 700;
+    display: block;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.rodape .desenvolvedor span{
+    color: #2f86d6;
+}
